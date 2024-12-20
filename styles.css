@@ -1,0 +1,278 @@
+@font-face 
+{
+    font-family: "Bondon";
+    src: url("/fonts/Bonbon-Regular.ttf");
+  }
+  
+  @font-face 
+  {
+    font-family: "Satyr SP";
+    src: url("/fonts/SatyrSP.otf");
+  }
+  
+  @font-face 
+  {
+    font-family: "Macondo";
+    src: url("/fonts/MacondoSwashCaps-Regular.ttf");
+  }
+  
+  @font-face 
+  {
+    font-family: "Barocco";
+    src: url("/fonts/Barocco\ Initial-0.ttf");
+  }
+  
+  @font-face 
+  {
+    font-family: "Magnolia";
+    src: url("/fonts/Magnolia\ Script.otf");
+  }
+  
+  @font-face 
+  {
+    font-family: "Fortunata";
+    src: url("/fonts/fortunatacyr.ttf");
+  }
+  
+  body 
+  {
+    background-color: burlywood;
+  }
+  
+  h1 
+  {
+    font-size: 4em;
+    font-family: "Satyr SP", sans-serif;
+    text-align: center;
+  }
+  
+  hr 
+  {
+    border-color: black;
+  }
+  
+  img.logo-left 
+  {
+    float: left;
+  }
+  
+  img.logo-right 
+  {
+    float: right;
+  }
+  
+  h2.today 
+  {
+    font-size: 2.5em;
+    font-family: "Barocco", sans-serif;
+  }
+  
+  caption 
+  {
+    font-family: "Macondo", sans-serif;
+  }
+  
+  div.container 
+  {
+    display: flex;
+    justify-content: center;
+  }
+  
+  table 
+  {
+    width: 200px;
+    margin-left: 2%;
+  }
+  
+  td 
+  {
+    font-family: monospace;
+    text-align: left;
+  }
+  
+  td.location,
+  td.type-weather 
+  {
+    width: 30%;
+  }
+  
+  td.dash 
+  {
+    text-align: center;
+    width: 15%;
+  }
+  
+  img.zodiac 
+  {
+    margin-left: 2%;
+  }
+  
+  header 
+  {
+    clear: both;
+  }
+  
+  article.sport div 
+  {
+    float: left;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 1.5em;
+    margin: 3px 5px 0;
+    letter-spacing: 0.2em;
+    background: black;
+    color: aliceblue;
+    font-weight: 500;
+    padding-top: 10px;
+  }
+  
+  article 
+  {
+    float: left;
+    margin: 1%;
+    font-family: "Magnolia", sans-serif;
+  }
+  
+  article.hagrid 
+  {
+    float: none;
+    width: 100%;
+  }
+  
+  .columns 
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2%;
+  }
+  
+  .column 
+  {
+    margin: 0.5% 1%;
+    padding: 0.5%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  @media print 
+  {
+    .columns 
+    {
+      display: block;
+      flex-wrap: nowrap;
+      margin: 0;
+    }
+    .column 
+    {
+      float: left;
+      width: 32%;
+      margin: 0.5%;
+      padding: 0.5%;
+      box-shadow: none;
+    }
+  }
+  
+  @media (max-width: 2000px) 
+  {
+    .column 
+    {
+      flex: 1 1 100px;
+    }
+  }
+  
+  @media (max-width: 1000px) 
+  {
+    .column 
+    {
+      flex: 1 1 40%;
+    }
+    .div-dumbldore 
+    {
+      flex: 0 0 400px;
+      padding: 0.5% 0;
+      margin: 0.5% 0;
+    }
+  }
+  
+  @media (max-width: 600px) 
+  {
+    .column 
+    {
+      flex: 1 1 80%;
+    }
+    .div-dumbldore 
+    {
+      margin: 0.5% 1%;
+      padding: 0.5%;
+    }
+  }
+  
+  article.sport,
+  article.music 
+  {
+    float: none;
+  }
+  
+  article.shop::first-letter,
+  article.music::first-letter,
+  article.hagrid::first-letter 
+  {
+    font-family: "Fortunata", sans-serif;
+    font-size: 6em;
+    float: left;
+    margin: 0 3% -0.2em 0;
+  }
+  
+  article.art-garry 
+  {
+    margin-right: 0;
+  }
+  
+  img.garry 
+  {
+    float: left;
+    margin: 1%;
+    height: 30%;
+    width: 70%;
+    margin-left: 15%;
+  }
+  
+  img.dumbldore 
+  {
+    width: 70%;
+    height: 70%;
+    margin: 3% 0 2% 8%;
+  }
+  
+  img.dumb 
+  {
+    height: 1%;
+    width: 100%;
+    margin: 3% 0;
+  }
+  
+  article.style-spell 
+  {
+    width: 100%;
+    text-align: center;
+    margin-top: 12%;
+    font-size: 350%;
+    letter-spacing: 0.3em;
+    font-family: "Bondon", sans-serif;
+  }
+  
+  article.style-charm 
+  {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 300%;
+    width: 50px;
+    font-family: "Bondon", sans-serif;
+    margin: 0 5% -5% 0;
+  }
+  
+  hr.end 
+  {
+    clear: both;
+  }
+  
